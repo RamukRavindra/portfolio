@@ -92,8 +92,8 @@ a {
 }
 
 .about-one img {
-  width: 100%;
-  border-radius: 15px;
+  /* width: 100%; */
+  border-radius: 10px;
 }
 
 .about-two {
@@ -125,7 +125,7 @@ a {
 }
 
 .tab-links.active-link::after {
-  width: 50%;
+  width: 100%;
 }
 
 .tab-contents ul li {
@@ -306,4 +306,4 @@ form .btn2 {
   margin-top: 20px;
 }
 
-@media only screen and (max-with:600px) {}
+@media only screen and (max-width:600px) {}

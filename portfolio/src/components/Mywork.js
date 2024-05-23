@@ -5,21 +5,22 @@ import { Link } from 'react-router-dom';
 export default function Mywork() {
     return (
         <>
-            <div className="container py-3">
+            <div className="container py-5">
                 <h1 className='sub-title'>My Work</h1>
                 <div className="work-list">
                     <div className="work">
-                        <img src="images/boatrockerz3.png" alt="bannerimage" />
+                        <img src="images/loginscreen.jpg" alt="bannerimage" />
                         <div className="layer">
-                            <h3>Social Media App</h3>
+                            <h3>Ecommerce App</h3>
                             <p>The app connects you to the talented people around the world.
                                 Download it from play store.
                             </p>
+                            {/* <a href="https://play.google.com/store/apps/details?id=com.ri.zingercustomer">Visit Project<BiSolidPaperPlane className='mywork-text fs-2 mx-2' /></a> */}
                             <BiSolidPaperPlane className='mywork-text fs-3' />
                         </div>
                     </div>
                     <div className="work">
-                        <img src="images/boatrockerz3.png" alt="bannerimage" />
+                        <img src="images/loginscreen.jpg" alt="bannerimage" />
                         <div className="layer">
                             <h3>Social Media App</h3>
                             <p>The app connects you to the talented people around the world.
@@ -29,7 +30,7 @@ export default function Mywork() {
                         </div>
                     </div>
                     <div className="work">
-                        <img src="images/boatrockerz3.png" alt="bannerimage" />
+                        <img src="images/loginscreen.jpg" alt="bannerimage" />
                         <div className="layer">
                             <h3>Social Media App</h3>
                             <p>The app connects you to the talented people around the world.
