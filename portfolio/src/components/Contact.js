@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub, FaYoutube, FaInstagram } from "react-icons/fa";
 export default function Contact() {
     return (
         <>
-            <div className="contact py-3">
+            <div className="contact py-3" id='contact'>
                 <div className="container">
                     <div className="row">
                         <div className="contact-left col">

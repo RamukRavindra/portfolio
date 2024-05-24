@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function Mywork() {
     return (
         <>
-            <div className="container py-5">
+            <div className="container py-5" id='mywork'>
                 <h1 className='sub-title'>My Work</h1>
                 <div className="work-list">
                     <div className="work">

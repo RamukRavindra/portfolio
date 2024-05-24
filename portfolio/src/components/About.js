@@ -5,7 +5,7 @@ export default function About() {
     const [subHeader, setSubHeader] = useState("skills");
     return (
         <>
-            <div className="about">
+            <div className="about" id='about'>
                 <div className="container">
                     <div className="row">
                         <div className="about-one col-1">

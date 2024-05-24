@@ -5,7 +5,7 @@ import { BiSolidPaperPlane } from "react-icons/bi";
 export default function Services() {
     return (
         <>
-            <div className="services py-1">
+            <div className="services py-1" id='services'>
                 <div className="container">
                     <h1 className='sub-title'>My Services</h1>
                     <div className="services-list">
