@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { BiSolidPaperPlane } from "react-icons/bi";
 
 export default function About() {
     const [subHeader, setSubHeader] = useState("skills");
@@ -35,9 +34,7 @@ export default function About() {
                                         <li><span>App Development</span><br></br>Rasi Infotech, Salem — App Developer Nov 2022 - PRESENT
                                         </li>
                                         <li><span>Zinger — ERP Jewellery</span><br></br>The Zinger Mobile Apps project aimed to create a suite of professional- grade applications including e-commerce, catalog, sales and owner apps.</li>
-                                        {/* <a href="https://play.google.com/store/apps/details?id=com.ri.zingercustomer">Visit Project<BiSolidPaperPlane className='mywork-text fs-5 mx-2' /></a> */}
                                         <li><span>enProject ( PMS — Project Management Solutions )</span><br></br>The enProject app offered a range of advanced features including employee attendance tracking, Support call management, Bug creation for testing and Enquiry Management, etc.</li>
-                                        {/* <a href="https://play.google.com/store/apps/details?id=com.ri.zingercustomer">Visit Project<BiSolidPaperPlane className='mywork-text fs-5 mx-2' /></a> */}
                                     </ul>
                                 </div>
                             ) : null}

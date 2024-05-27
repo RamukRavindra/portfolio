@@ -15,20 +15,20 @@ export default function Contact() {
                             <a href="mailto:ravindrakumar3156@gmail.com" className="mt-2 text-white d-block mb-0">
                                 <SiProtonmail className='contact-icon fs-5' /> ravindrakumar3156@gmail.com</a>
                             <div className="social-icons d-flex align-items-center gap-30 my-4">
-                                <a className='' href="#">
+                                <a className='' href="https://play.google.com/store/apps/details?id=com.ri.zingercustomer">
                                     <FaLinkedin className='fs-4' />
                                 </a>
-                                <a className='' href="#">
+                                <a className='' href="https://play.google.com/store/apps/details?id=com.ri.zingercustomer">
                                     <FaGithub className='fs-4' />
                                 </a>
-                                <a className='' href="#">
+                                <a className='' href="https://play.google.com/store/apps/details?id=com.ri.zingercustomer">
                                     <FaYoutube className='fs-4' />
                                 </a>
-                                <a className='' href="#">
+                                <a className='' href="https://play.google.com/store/apps/details?id=com.ri.zingercustomer">
                                     <FaInstagram className='fs-4' />
                                 </a>
                             </div>
-                            <a className='btn btn2' href="">Download CV</a>
+                            <a className='btn btn2' href="https://play.google.com/store/apps/details?id=com.ri.zingercustomer">Download CV</a>
                         </div>
                         <div className="contact-right col">
                             <form>

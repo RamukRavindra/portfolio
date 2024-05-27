@@ -15,7 +15,6 @@ export default function Mywork() {
                             <p>The app connects you to the talented people around the world.
                                 Download it from play store.
                             </p>
-                            {/* <a href="https://play.google.com/store/apps/details?id=com.ri.zingercustomer">Visit Project<BiSolidPaperPlane className='mywork-text fs-2 mx-2' /></a> */}
                             <FaExternalLinkAlt className='mywork-text fs-3 mt-3' />
                         </div>
                     </div>
