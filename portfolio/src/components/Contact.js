@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaLinkedin, FaGithub, FaYoutube, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaYoutube, FaInstagram, FaPhoneAlt } from "react-icons/fa";
+import { SiProtonmail } from "react-icons/si";
 
 export default function Contact() {
     return (
@@ -10,9 +11,9 @@ export default function Contact() {
                         <div className="contact-left col">
                             <h1 className='sub-title pb-3'>Contact Me</h1>
                             <a href="tel:+91 8940547520" className="mt-3 text-white d-block mb-1">
-                                <FaLinkedin className='contact-icon fs-4' /> +91 8940547520</a>
+                                <FaPhoneAlt className='contact-icon fs-5' /> +91 8940547520</a>
                             <a href="mailto:ravindrakumar3156@gmail.com" className="mt-2 text-white d-block mb-0">
-                                <FaLinkedin className='contact-icon fs-4' /> ravindrakumar3156@gmail.com</a>
+                                <SiProtonmail className='contact-icon fs-5' /> ravindrakumar3156@gmail.com</a>
                             <div className="social-icons d-flex align-items-center gap-30 my-4">
                                 <a className='' href="#">
                                     <FaLinkedin className='fs-4' />

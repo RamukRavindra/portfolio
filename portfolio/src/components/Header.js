@@ -5,7 +5,7 @@ export default function Header() {
     return (
         <>
             <div className="header px-5" id='header'>
-                <div className="container-xxl py-2">
+                <div className="container-sm py-2">
                     <div className="row py-2">
                         <div className="col-7">
                             <span style={{ color: "#ff004f" }}>Ravindra</span> Kumar

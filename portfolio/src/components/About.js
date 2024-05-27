@@ -16,9 +16,9 @@ export default function About() {
                             <p className='text-white'>Passionate about Mobile App Development for both Android and iOS platforms, alongside web development. Committed to staying updated with the latest industry trends and advancements in these domains.</p>
 
                             <div className="tab-titles d-flex gap-30">
-                                <p className="tab-links active-link" onClick={() => setSubHeader("skills")}>Skills</p>
-                                <p className="tab-links" onClick={() => setSubHeader("experience")}>Experience</p>
-                                <p className="tab-links" onClick={() => setSubHeader("education")}>Education</p>
+                                <p className={`tab-links ${subHeader === "skills" ? "active-link" : ""}`} onClick={() => setSubHeader("skills")}>Skills</p>
+                                <p className={`tab-links ${subHeader === "experience" ? "active-link" : ""}`} onClick={() => setSubHeader("experience")}>Experience</p>
+                                <p className={`tab-links ${subHeader === "education" ? "active-link" : ""}`} onClick={() => setSubHeader("education")}>Education</p>
                             </div>
                             {subHeader === "skills" ? (
                                 <div className="tab-contents">
