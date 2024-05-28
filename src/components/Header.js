@@ -1,29 +1,31 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React, { useState } from 'react'
+import { GiHamburgerMenu } from "react-icons/gi";
+import { FaTimes } from "react-icons/fa";
 
 export default function Header() {
+    const [showMenu, setShowMenu] = useState(false);
     return (
         <>
-            <div className="header px-5" id='header'>
-                <div className="container-sm py-2">
-                    <div className="row py-2">
-                        <div className="col-7">
-                            <span style={{ color: "#ff004f" }}>Ravindra</span> Kumar
+            <div className="header" id='header'>
+                <div className="container py-2">
+                    <nav className='p-2'>
+                        <div>
+                            <h6><span className='span-text'>Ravindra</span> Kumar</h6>
                         </div>
-                        <div className="col-5">
-                            <div className="menu-links">
-                                <div className="d-flex align-items-center gap-30">
-                                    <NavLink className="header-text" to="#">Home</NavLink>
-                                    <NavLink className="header-text" to="#">About</NavLink>
-                                    <NavLink className="header-text" to="#">Services</NavLink>
-                                    <NavLink className="header-text" to="#">Portfolio</NavLink>
-                                    <NavLink className="header-text" to="#">Contact</NavLink>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                        <ul className={showMenu ? "show-menu" : ""}>
+                            <li><a href="#header">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#mywork">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <FaTimes className='fas' onClick={() => setShowMenu(false)} />
+                        </ul>
+                        {!showMenu && (
+                            <GiHamburgerMenu className='fas' onClick={() => setShowMenu(true)} />
+                        )}
+                    </nav>
                 </div>
-                <div className="header-font">
+                <div className="container header-text">
                     <p>Application Developer</p>
                     <h1>Hi, I'm <span>Ravindra</span><br></br>Kumar from Salem</h1>
                 </div>

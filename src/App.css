@@ -25,17 +25,27 @@ a {
   background-position: center;
 }
 
-.header .menu-links a {
-  color: white;
-  font-size: 14px;
-  line-height: 18px;
-  font-weight: 400;
-  letter-spacing: .3;
-  text-transform: uppercase;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
   position: relative;
 }
 
-.header .menu-links .header-text::after {
+nav ul li a::after {
   content: "";
   width: 0;
   height: 3px;
@@ -46,21 +56,29 @@ a {
   transition: 0.5s;
 }
 
-.header .menu-links .header-text:hover::after {
+nav ul li a:hover::after {
   width: 100%;
 }
 
-.header-font {
-  margin-top: 20%;
+h6 {
+  font-size: 18px;
+}
+
+.span-text {
+  color: #ff004f;
+}
+
+.header-text {
+  margin-top: 15%;
   font-size: 30px;
 }
 
-.header-font h1 {
+.header-text h1 {
   font-size: 60px;
   margin-top: 20px;
 }
 
-.header-font h1 span {
+.header-text h1 span {
   color: #ff004f;
 }
 
@@ -306,4 +324,49 @@ form .btn2 {
   margin-top: 20px;
 }
 
-@media only screen and (max-width:600px) {}
+nav .fas {
+  display: none;
+}
+
+@media only screen and (max-width:600px) {
+  .header-text {
+    margin-top: 70%;
+    font-size: 16px;
+  }
+
+  .header-text h1 {
+    font-size: 30px;
+  }
+
+  nav .fas {
+    display: block;
+    font-size: 25px;
+  }
+
+  nav ul {
+    background: #ff004f;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px;
+    transition: right 0.5s;
+  }
+
+  nav ul.show-menu {
+    right: 0;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 25px 0;
+  }
+
+  nav ul .fas {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+  }
+}
