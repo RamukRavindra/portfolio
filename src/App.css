@@ -21,6 +21,8 @@ a {
   width: 100%;
   height: 100vh;
   background-image: url(../public/images/bannerimage.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
