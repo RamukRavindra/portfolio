@@ -7,11 +7,11 @@ export default function About() {
             <div className="about" id='about'>
                 <div className="container">
                     <div className="row">
-                        <div className="about-one col-1">
+                        <div className="about-one">
                             <img className='img-fluid w-100' src="images/loginscreen.jpg" alt="bannerimage" />
                         </div>
-                        <div className="about-two col-2">
-                            <h1 className='sub-title'>About</h1>
+                        <div className="about-two">
+                            <h1 className='sub-title'>About Me</h1>
                             <p className='text-white'>Passionate about Mobile App Development for both Android and iOS platforms, alongside web development. Committed to staying updated with the latest industry trends and advancements in these domains.</p>
 
                             <div className="tab-titles d-flex gap-30">

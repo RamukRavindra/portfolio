@@ -41,7 +41,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #fff;
+  color: #fff !important;
   font-size: 18px;
   text-decoration: none;
   position: relative;
@@ -320,10 +320,9 @@ form .btn2 {
 .copy-right {
   width: 100%;
   text-align: center;
-  padding: 25px 0;
+  padding: 15px 0;
   background: #262626;
   font-weight: 300;
-  margin-top: 20px;
 }
 
 nav .fas {
@@ -343,6 +342,10 @@ nav .fas {
   nav .fas {
     display: block;
     font-size: 25px;
+  }
+
+  nav .fas:hover {
+    color: #ff004f !important;
   }
 
   nav ul {
@@ -365,10 +368,58 @@ nav .fas {
     margin: 25px 0;
   }
 
+  nav ul li a:hover {
+    color: #080808 !important;
+  }
+
   nav ul .fas {
     position: absolute;
     top: 25px;
     left: 25px;
     cursor: pointer;
+  }
+
+  nav ul .fas:hover {
+    color: #080808 !important;
+  }
+
+  .sub-title {
+    font-size: 30px;
+  }
+
+  .about-one,
+  .about-two {
+    flex-basis: 100%;
+  }
+
+  .about-one {
+    margin-bottom: 30px;
+  }
+
+  .about-two {
+    font-size: 14px;
+    margin: 0px 10px;
+  }
+
+  .tab-links {
+    font-size: 16px;
+
+  }
+
+  .tab-contents ul li {
+    font-size: 13px;
+  }
+
+  .contact-left,
+  .contact-right {
+    flex-basis: 100%;
+  }
+
+  .contact-left {
+    margin: 0px 20px;
+  }
+
+  .copy-right {
+    font-size: 14px;
   }
 }

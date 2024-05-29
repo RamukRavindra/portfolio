@@ -7,7 +7,7 @@ export default function Header() {
     return (
         <>
             <div className="header" id='header'>
-                <div className="container py-2">
+                <div className="container py-1">
                     <nav className='p-2'>
                         <div>
                             <h6><span className='span-text'>Ravindra</span> Kumar</h6>

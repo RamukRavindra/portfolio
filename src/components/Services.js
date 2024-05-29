@@ -5,7 +5,7 @@ import { FaCode, FaCropAlt, FaAppStore } from "react-icons/fa";
 export default function Services() {
     return (
         <>
-            <div className="services py-1" id='services'>
+            <div className="services" id='services'>
                 <div className="container">
                     <h1 className='sub-title'>My Services</h1>
                     <div className="services-list">

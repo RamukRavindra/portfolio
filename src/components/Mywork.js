@@ -15,7 +15,9 @@ export default function Mywork() {
                             <p>The app connects you to the talented people around the world.
                                 Download it from play store.
                             </p>
-                            <FaExternalLinkAlt className='mywork-text fs-3 mt-3' />
+                            <a className='text-white py-4' href="https://play.google.com/store/apps/details?id=com.ri.zingercustomer">
+                                <FaExternalLinkAlt size={25} />
+                            </a>
                         </div>
                     </div>
                     <div className="work">
@@ -25,7 +27,9 @@ export default function Mywork() {
                             <p>The app connects you to the talented people around the world.
                                 Download it from play store.
                             </p>
-                            <FaExternalLinkAlt className='mywork-text fs-3 mt-3' />
+                            <a className='text-white py-4' href="https://play.google.com/store/apps/details?id=com.ri.zingercustomer">
+                                <FaExternalLinkAlt size={25} />
+                            </a>
                         </div>
                     </div>
                     <div className="work">
@@ -35,7 +39,9 @@ export default function Mywork() {
                             <p>The app connects you to the talented people around the world.
                                 Download it from play store.
                             </p>
-                            <FaExternalLinkAlt className='mywork-text mt-3' />
+                            <a className='text-white py-4' href="https://play.google.com/store/apps/details?id=com.ri.zingercustomer">
+                                <FaExternalLinkAlt size={25} />
+                            </a>
                         </div>
                     </div>
                 </div>
