@@ -9,7 +9,7 @@ export default function Mywork() {
                 <h1 className='sub-title'>My Work</h1>
                 <div className="work-list">
                     <div className="work">
-                        <img className='img-fluid' src="images/loginpage.jpg" alt="bannerimage" />
+                        <img className='img-fluid' src="images/enproject.png" alt="bannerimage" />
                         <div className="layer">
                             <h3>Enproject App</h3>
                             <p>The app connects you to the talented people around the world.
@@ -21,7 +21,7 @@ export default function Mywork() {
                         </div>
                     </div>
                     <div className="work">
-                        <img src="images/loginpage.jpg" alt="bannerimage" />
+                        <img className='img-fluid' src="images/ecomm.png" alt="bannerimage" />
                         <div className="layer">
                             <h3>Ecommerce App</h3>
                             <p>The app connects you to the talented people around the world.
@@ -33,7 +33,7 @@ export default function Mywork() {
                         </div>
                     </div>
                     <div className="work">
-                        <img src="images/loginpage.jpg" alt="bannerimage" />
+                        <img className='img-fluid' src="images/enproject.png" alt="bannerimage" />
                         <div className="layer">
                             <h3>Social Media App</h3>
                             <p>The app connects you to the talented people around the world.
